@@ -114,7 +114,7 @@ namespace ITEA_HW4
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] % 2 == 1)
+                if (array[i] % 2 != 0)
                 {
                     ++count;
                 }
