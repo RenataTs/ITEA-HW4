@@ -56,14 +56,12 @@ namespace ITEA_HW4
 
         static int Task3(ref int[] array)
         {
-            int min = array[0];
             int indexMin = 0;
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] < min)
+                if (array[i] < array[indexMin])
                 {
-                    min = array[i];
                     indexMin = i;
                 }
             }
@@ -73,14 +71,12 @@ namespace ITEA_HW4
 
         static int Task4(ref int[] array)
         {
-            int max = array[0];
             int indexMax = 0;
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] > max)
+                if (array[i] > array[indexMax])
                 {
-                    max = array[i];
                     indexMax = i;
                 }
             }
@@ -118,7 +114,7 @@ namespace ITEA_HW4
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] % 2 != 0)
+                if (array[i] % 2 == 1)
                 {
                     ++count;
                 }
@@ -175,7 +171,7 @@ namespace ITEA_HW4
 
             Console.WriteLine();
 
-            Task10(ref array);
+            Console.WriteLine(Task4(ref array));
 
             for (int i = 0; i < array.Length; i++)
             {
