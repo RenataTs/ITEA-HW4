@@ -38,7 +38,7 @@ namespace ITEA_HW4
 
             return min;
         }
-
+///
         static int Task2(ref int[] array)
         {
             int max = array[0];
