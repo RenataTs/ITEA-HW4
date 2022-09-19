@@ -5,6 +5,7 @@ namespace ITEA_HW4
     class Program
     {//.....new changes1
         //.....new changes1///
+        //.....local///
         static int[] CreateArray(int N)
         {
             int[] array = new int[N];
