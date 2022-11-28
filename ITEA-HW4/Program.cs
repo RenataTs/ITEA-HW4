@@ -3,7 +3,7 @@
 namespace ITEA_HW4
 {
     class Program
-    {//
+    {//smth
         static int[] CreateArray(int N)
         {
             int[] array = new int[N];
