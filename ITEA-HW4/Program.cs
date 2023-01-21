@@ -9,6 +9,9 @@ namespace ITEA_HW4
     /// <param name="N"></param>
     /// <returns></returns>
     /// 555
+    /// 222
+    /// 333
+    /// 
         static int[] CreateArray(int N)
         {
             int[] array = new int[N];
