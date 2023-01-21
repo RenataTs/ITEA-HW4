@@ -3,7 +3,11 @@
 namespace ITEA_HW4
 {
     class Program
-    {//111
+    {/// <summary>
+    /// 111
+    /// </summary>
+    /// <param name="N"></param>
+    /// <returns></returns>
         static int[] CreateArray(int N)
         {
             int[] array = new int[N];
